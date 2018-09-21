@@ -1,26 +1,26 @@
 let todos = [{
-    title: "task 1",
+    title: "Task 1",
     priority: {
         name: 'Low',
         value: 0
     },
-    description: '',
+    description: 'Task 1',
     completed: false,
 }, {
-    title: "task 2",
+    title: "Task 2",
     priority: {
         name: 'Medium',
         value: 0
     },
-    description: '',
+    description: 'Task 2',
     completed: true,
 }, {
-    title: "task 3",
+    title: "Task 3",
     priority: {
         name: 'High',
         value: 0
     },
-    description: '',
+    description: 'Task 3',
     completed: false,
 }];
 
