@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List Of ToDo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+
+    </style>
+</head>
+<body>
+    <div class="todo-container" id="todoContainer">
+            <div class="search" id="navbar">
+                <input type="text" class="search-input" placeholder="search..." id="inputSearch">
+                <label class="container">
+                    <input type="checkbox" id="inputHidenCompletedTodos"> <span class="incompleted-todos-text">Hide completed todos</span> 
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+        <div class="add-todo-container" id="add-todo-container">
+            <h2 id="incompletedTodos" class="incompleted-todos"></h2>
+
+            <form class="add-todo">
+                <div class="add-todo-options">
+                    <input type="text" id="todoInputTitle" class="add-todo-input" placeholder="Add Title">
+                    <select id="todoInputPriority" class="select-priority">
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
+                </div>
+                <textarea id="todoInputDescription" placeholder="Add a brief description ..."></textarea>
+                <button id="addTodo" class="button">Add</button>
+            </form>
+        </div>
+
+        
+ 
+
+        <div class="todo-table-container">
+            <table id="todoList">
+                <tr>
+                    <th id='sortByTitle'>Title</th>
+                    <th id='sortByPriority'>Priority</th>
+                    <th> Description </th>
+                    <th id='sortByCompleted'>Completed</th>
+                </tr>
+    
+            </table>
+        </div>
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
